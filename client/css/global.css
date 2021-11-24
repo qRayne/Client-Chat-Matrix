@@ -1,5 +1,44 @@
 * {
     margin:0;
     padding:0;
-    background-color: #020204;
+    background-color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sign-in-input-group{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    height: 45px;
+    width: 270px; 
+}
+
+input[type=text]{
+    width: 60%;
+    margin: 20px 0;
+    border: none;
+    color: white;
+}
+
+input[type=password]{
+    width: 60%;
+    margin: 20px 0;
+    border: none;
+    color: white;
+}
+
+button,a{
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    margin-top:20px;
+    color: #0f0;
+    font-size: 14px;
+    cursor:crosshair;
+}
+
+a{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    text-decoration: none;
 }
